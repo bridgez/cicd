@@ -4,7 +4,7 @@ pipeline {
    stages {
       stage('Build') {
         steps {
-          echo 'Building on Dec 30 4th time...'
+          echo 'Building on Dec 30 5th time 11:46...'
           sh 'docker run -dit busybox'
           echo "Running ${env.BUILD_ID} ${env.BUILD_DISPLAY_NAME} on ${env.NODE_NAME} and JOB ${env.JOB_NAME}"
         }
